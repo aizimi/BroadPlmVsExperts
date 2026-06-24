@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{Performance by dialect group. Macro-F1 is computed on pooled test instances aggregated across datasets within each dialect group. The best-performing score in each row is shown in bold. All scores are computed on the pool of instances for which the respective model has predictions. $\Delta$ = specialist F1 $-$ MARBERTv2 F1; note that the two models may be evaluated on different instance pools when they cover different datasets, so $\Delta$ is indicative rather than a controlled paired comparison. Dialect labels may be automatic predictions rather than gold annotations.}
+\label{tab:dialect_group_results}
+\begin{tabular}{l c c c l c}
+\toprule
+Dialect Group & MARBERTv2 & AraBERTv2 & Best Specialist & Specialist & $\Delta$ vs MARBERT \\
+\midrule
+EGY & 0.744 & 0.738 & \textbf{0.771} & EgyBERT & +0.027 \\
+MAGHREB & 0.680 & 0.617 & \textbf{0.685} & DziriBERT & +0.005 \\
+MSA & \textbf{0.831} & 0.822 & \textemdash{} & \textemdash{} & \textemdash{} \\
+OTHER_MIXED & \textbf{0.830} & 0.814 & \textemdash{} & \textemdash{} & \textemdash{} \\
+\bottomrule
+\end{tabular}
+\end{table}

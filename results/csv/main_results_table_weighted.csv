@@ -1,0 +1,4 @@
+dataset,model,f1_mean,f1_ci95,f1_formatted,is_best,boot_p,boot_p_holm,mcnemar_p,ttest_p
+ASTD,marbert,0.666089,0.013093,0.666+/-0.013,1,-,-,-,-
+ASTD,egybert,0.652456,0.013017,0.652+/-0.013,0,0.0362,0.0362,0.04229,0.2188
+ASTD,arabert,0.629094,0.022767,0.629+/-0.023,0,0.0118,0.0236,0.001065,0.03809

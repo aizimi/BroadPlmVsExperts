@@ -1,0 +1,13 @@
+\begin{table}[t]
+\centering
+\caption{Statistical comparison against MARBERTv2 using paired bootstrap tests. $\Delta$F1 = model $-$ MARBERTv2; negative values indicate the model underperforms MARBERTv2. 95\% bootstrap confidence intervals are reported. p-values are Holm-corrected within each dataset. $\checkmark$ indicates $p < 0.05$.}
+\label{tab:significance}
+\begin{tabular}{l l c c c c}
+\toprule
+Dataset & Model & $\Delta$F1 & 95\% CI & p (Holm) & Sig. \\
+\midrule
+ASTD & AraBERTv2 & -0.045 & [-0.079, -0.010] & 0.0236 & ✓ \\
+ASTD & EgyBERT & -0.034 & [-0.065, -0.002] & 0.0362 & ✓ \\
+\bottomrule
+\end{tabular}
+\end{table}

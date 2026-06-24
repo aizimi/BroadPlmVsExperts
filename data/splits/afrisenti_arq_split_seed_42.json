@@ -1,0 +1,19 @@
+{
+  "source": "masakhane/afrisenti",
+  "subset": "arq",
+  "note": "Official HF splits recorded for reproducibility.",
+  "splits": {
+    "train": {
+      "n": 1651,
+      "fingerprint": "807e494584eec77b"
+    },
+    "validation": {
+      "n": 414,
+      "fingerprint": "942c3e85b81688d4"
+    },
+    "test": {
+      "n": 958,
+      "fingerprint": "f320ba6682b88d06"
+    }
+  }
+}

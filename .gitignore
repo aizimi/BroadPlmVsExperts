@@ -1,0 +1,45 @@
+# Secrets and credentials
+.env
+*.key
+*.pem
+
+# IDE and editor files
+.claude/
+.idea/
+.vscode/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+conda-env/
+
+# Experiment outputs (large, derived, or private)
+checkpoints/
+outputs/
+logs/
+runs/
+wandb/
+.cache/
+scripts/outputs/
+
+# Private data
+data/raw/
+data/private/
+
+# Model weights and binaries
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# OS noise
+.DS_Store
+Thumbs.db

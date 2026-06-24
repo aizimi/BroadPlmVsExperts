@@ -1,0 +1,8 @@
+Dataset,MARBERTv2,AraBERTv2,EgyBERT
+ASTD,*0.666 [0.653–0.679],0.629 [0.606–0.652],0.652 [0.639–0.665]
+ArSAS,—,—,—
+AfriSenti_ARQ,—,—,—
+MACcorpus,—,—,—
+AfriSenti_ARY,—,—,—
+LABR,—,—,—
+HARD,—,—,—
