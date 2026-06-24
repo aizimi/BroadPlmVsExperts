@@ -4,7 +4,7 @@
 > A Controlled Multi-Dataset Evaluation with Paired Statistical Testing
 
 This repository contains the code, data splits, result tables, and figures associated
-with the paper above. It is structured for full reproducibility of all reported
+with the paper above. It is structured to support reproducibility of the reported
 experiments.
 
 ---
