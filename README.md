@@ -70,6 +70,25 @@ test is reported as a secondary diagnostic in the appendix.
 
 ---
 
+## Command-line Environment
+
+All shell commands in this README are written for **Git Bash** (or any Unix-like shell
+such as WSL or macOS Terminal). Windows users should run `.sh` scripts inside
+**Git Bash**, not PowerShell or cmd.exe.
+
+When specifying paths in Git Bash on Windows, use the `/c/Users/...` syntax instead
+of the native `C:\Users\...` form. For example:
+
+```bash
+# Windows path in Git Bash
+cd /c/Users/yourname/PycharmProjects/BroadPlmVsExperts-public
+```
+
+A PowerShell equivalent (`run_experiment.ps1`) is provided for the main training
+script — see the **Running Experiments** section below.
+
+---
+
 ## Environment Setup
 
 Python **3.10** is recommended (tested on 3.10.20).

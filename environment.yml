@@ -1,4 +1,4 @@
-name: arabic_sentiment_test2
+name: arabic_sentiment
 channels:
   - defaults
 
